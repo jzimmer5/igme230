@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Karla', sans-serif;
+    max-width: 1000px;
 }
 
 #personalInfo {
@@ -20,21 +21,18 @@
 }
 
 #links {
-    max-width: 1000px;
     margin: 0 auto;
 }
 
 #exercises {
     float: left;
     margin: .5em 0 .5em 1em;
-    background-color: #d6d3d3; 
 }
 
 #projects {
     float: right;
     margin: .5em 0 .5em 1em;
     border: 1px black;
-    background-color: #d6d3d3; 
 }
 
 header {
