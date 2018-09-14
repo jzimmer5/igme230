@@ -9,6 +9,7 @@
     border: 2px solid black;
     border-spacing: 5px;
     background-color: lightgray;
+    padding: .2em;
     color: black;
     float: left;
     clear: left;
@@ -25,8 +26,10 @@
 
 #exercises {
     float: left;
+    margin: .5em 0 .5em 1em;
 }
 
 #projects {
     float: right;
+    margin: .5em 0 .5em 1em;
 }
