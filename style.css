@@ -38,7 +38,7 @@
 }
 
 #excersises h3, #projects h3 {
-    margin-bottom: .2em;
+    border-bottom: 1px lightgray;
 }
 
 header {
@@ -48,4 +48,8 @@ header {
     color: white;
     text-align: center;
     font-size: 5em;
+}
+
+li {
+    font-size: 1em;
 }
