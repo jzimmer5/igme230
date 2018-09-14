@@ -1,13 +1,13 @@
 * {
     box-sizing: border-box;
     font-family: 'Karla', sans-serif;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 #personalInfo {
     text-align: center;
-    width: 250px;
+    width: 300px;
     border: 2px solid black;
     border-spacing: 5px;
     background-color: lightgray;
