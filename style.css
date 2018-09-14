@@ -38,8 +38,8 @@
     border: 1px black;
 }
 
-#excersises h3, #projects h3 {
-    border-bottom: 1px lightgray;
+article h3 {
+    border-bottom: 1px solid black;
 }
 
 header {
