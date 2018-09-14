@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+#personalInfo {
+    text-align: center;
+    width: 500px;
+    border: 2px solid black;
+    border-spacing: 5px;
+    background-color: lightgray;
+    color: black;
+    float: left;
+    clear: left;
+}
+
+#personalInfo img {
+    max-width: 100%;
+}
+
+#links {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#exercises {
+    float: left;
+}
+
+#projects {
+    float: right;
+}
