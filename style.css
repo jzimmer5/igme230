@@ -32,4 +32,6 @@
 #projects {
     float: right;
     margin: .5em 0 .5em 1em;
+    border: 1px black;
+    background-color: lightslategrey; 
 }
