@@ -29,18 +29,18 @@
     float: left;
     margin: .5em 0 .5em 1em;
     padding: 2em;
-    background-color: rgb(214, 211, 211); 
+    background-color: #d6d3d3; 
 }
 
 #projects {
     float: right;
     margin: .5em 0 .5em 1em;
     border: 1px black;
-    background-color: rgb(214, 211, 211); 
+    background-color: #d6d3d3; 
 }
 
 header {
-    height: 200px;
+    height: 100px;
     width: 100%;
-    background-color: dimgray;
+    background-color: #000000;
 }
