@@ -55,10 +55,10 @@
     margin: .5em 0 .5em 1em;
 }
 
-/*the bottom of the Jeffrey Zimmer is underlined by a black line that is .1em thick*/
+/*the bottom of the excercises and project headers is underlined by a black line that is .1em thick*/
 
 article h3 {
-    border-bottom: .1em solid black;
+    border-bottom: 1px solid black;
 }
 
 /*The header will be 100px tall and the width will take up 100% of the allowed screen width. The background will be black
