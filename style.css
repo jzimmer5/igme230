@@ -1,3 +1,7 @@
+/*This box sets the font to karla, max width of the whole webpage to 1200px
+ and the background color to a light grey. The margin to none and the width
+ and height of every element into a box with borders*/
+
 * {
     box-sizing: border-box;
     font-family: 'Karla', sans-serif;
@@ -5,6 +9,12 @@
     margin: 0 auto;
     background-color: #e4e4e4;
 }
+
+/*For the side panel the text will be centered and will be black. The width
+ of the panel will be 300px and will be placed on the left side of the screen
+ with nothing to the left of it. There will be a black border around the panel
+ with a spacing of 5px, the inside will be .5em from the left and right while 
+ being 1em from the bottom. The background will be white.*/
 
 #personalInfo {
     text-align: center;
@@ -19,28 +29,40 @@
     background-color: white;
 }
 
+/*The image in the panel will be 75% of its width*/
+
 #personalInfo img {
     max-width: 75%;
 }
 
+/*The box that contains the excercises and projects will not have a margin*/
+
 #links {
     margin: 0 auto;
 }
+
+/*The excercises will be to the left of the links box and will have a margin of .5em to the left and right and 1em to the bottom*/
 
 #exercises {
     float: left;
     margin: .5em 0 .5em 1em;
 }
 
+/*The projects links will be to the right of the link box with a margin of .5em to the left and right and 1em to the bottom.*/
+
 #projects {
     float: right;
     margin: .5em 0 .5em 1em;
-    border: 1px black;
 }
 
+/*the bottom of the Jeffrey Zimmer is underlined by a black line that is .1em thick*/
+
 article h3 {
-    border-bottom: 1px solid black;
+    border-bottom: .1em solid black;
 }
+
+/*The header will be 100px tall and the width will take up 100% of the allowed screen width. The background will be black
+ and the text will be white. The text will be centered and 5em large.*/
 
 header {
     height: 100px;
@@ -50,6 +72,8 @@ header {
     text-align: center;
     font-size: 5em;
 }
+
+/*All lists will have the font size of 1em.*/
 
 li {
     font-size: 1em;
