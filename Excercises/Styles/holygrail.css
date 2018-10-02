@@ -62,3 +62,7 @@ nav {
 article, aside {
     flex: 0 0 12rem;
 }
+
+article {
+    flex: 1;
+}
