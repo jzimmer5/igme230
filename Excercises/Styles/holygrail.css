@@ -55,3 +55,10 @@ article, nav, aside {
     padding: .5rem;
 }
 
+nav {
+    order: -1;
+}
+
+article, aside {
+    flex: 0 0 12rem;
+}
