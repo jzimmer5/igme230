@@ -53,11 +53,11 @@ header {
 }
 
 nav {
-    grid-area: article;
+    grid-area: sidenav;
 }
 
 article {
-    grid-area: sidenav;
+    grid-area: article;
 }
 
 aside {
