@@ -48,3 +48,9 @@ img {
     border: 2px solid black;
     border-radius: 5px;
 }
+
+@supports (display: grid) {
+    .warning {
+        display: none;
+    }
+}
