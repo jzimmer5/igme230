@@ -68,9 +68,10 @@ article {
 }
 
 @media screen and (max-width: 36rem) {
-    flex-direction: column;
-    width: 100vw;
-
+    main {
+        flex-direction: column;
+        width: 100vw;
+    }
     #wrapper{
         max-width: none;
     }
