@@ -67,3 +67,13 @@ aside {
 footer {
     grid-area: footer;
 }
+
+@media screen and (min-width: 760px) {
+    #wrapper {
+        grid-template-areas: "header header header"/*1st row*/
+        "sidenav article sidebar"/*2nd row*/
+        "footer footer footer";/*3rd row*/
+        grid-template-rows: 1fr 10fr 1fr; /*defines height of three rows*/
+        grid-template-columns: 20% auto 20%; /*defines width of the three columns*/
+    }
+}
