@@ -78,10 +78,10 @@ main {
 **************/
 
 main {
-    animation: enterance .5s linear both;
+    animation: entrance .5s linear both;
 }
 
-@keyframes enterance {
-    from{transform: translateX(-2000)}
-    to{transform: translateX(0)}
+@keyframes entrance {
+    from{transform: translateX(-2000);}
+    to{transform: translateX(0);}
 }
