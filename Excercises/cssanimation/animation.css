@@ -101,7 +101,16 @@ main img:hover {
     transform: scale(1.2);
 }
 
+a:hover .fa {
+    animation: spin .5s linear both;
+}
+
 @keyframes entrance {
     from{transform: translateX(-2000px);}
     to{transform: translateX(0px);}
+}
+
+@keyframes spin {
+    100%{transform: rotate(1turn) rotateY(360deg)};
+
 }
