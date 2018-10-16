@@ -82,6 +82,6 @@ main div{
 }
 
 @keyframes entrance {
-    from{transform: translateX(-2000);}
-    to{transform: translateX(0);}
+    from{transform: translateX(-2000px);}
+    to{transform: translateX(0px);}
 }
