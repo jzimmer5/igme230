@@ -77,6 +77,10 @@ main {
  CSS Animation 
 **************/
 
+main div {
+    animation: enterance .5s linear both;
+}
+
 @keyframes enterance {
     from{transform: translateX(-2000)}
     to{transform: translateX(0)}
