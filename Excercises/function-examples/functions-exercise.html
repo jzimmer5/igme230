@@ -33,8 +33,7 @@
         "use strict";
         let colors = ["Green", "Blue", "Purple"]; // add some colors
         let foods = ["Pork", "Steak","Clams"]; // add some foods
-        
-        for(let n of colors){
+        for(let n = 0;n < 3;n++){
                 let g = colors(n);
                 let newListItem = document.createElement("li");
                 let text = document.createTextNode(g);
@@ -42,7 +41,7 @@
                 document.getElementbyId("colorsList").appendChild(newListItem);
         }
         
-        for(let n of foods){
+        for(let n = 0;n < 3;n++){
                 let g = foods(n);
                 let newListItem = document.createElement("li");
                 let text = document.createTextNode(g);
