@@ -44,9 +44,10 @@
                 document.getElementById(listElement).appendChild(newListItem);
             }
         }
-        
-        creatList(getElementById.("colorsList"), colors);
-        creatList(getElementById.("foodsList"), foods);
+        let food = getElementById.("foodsList")
+        let color = getElementById.("colorsList");
+        creatList(color, colors);
+        creatList( food, foods);
         
      /*   for(let n = 0;n < 3;n++){
                 let g = colors[n];
