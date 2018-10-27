@@ -38,7 +38,7 @@
                 let newListItem = document.createElement("li");
                 let text = document.createTextNode(g);
                 newListItem.appendChild(text);
-                document.colorsList.appendChild(newListItem);
+                document.getElementById(colorsList).appendChild(newListItem);
         }
 
         for(let n = 0;n < 3;n++){
@@ -46,7 +46,7 @@
                 let newListItem = document.createElement("li");
                 let text = document.createTextNode(g);
                 newListItem.appendChild(text);
-                document.colorsList.appendChild(newListItem);
+                document.getElementById(colorsList).appendChild(newListItem);
         }
         
     </script>
