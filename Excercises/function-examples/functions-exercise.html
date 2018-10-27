@@ -33,7 +33,22 @@
         "use strict";
         let colors = ["Green", "Blue", "Purple"]; // add some colors
         let foods = ["Pork", "Steak","Clams"]; // add some foods
-        for(let n = 0;n < 3;n++){
+        
+        function createList(listElement,array){
+        // you write the rest
+            for(let n = 0;n < 3;n++){
+                let g = array[n];
+                let newListItem = document.createElement("li");
+                let text = document.createTextNode(g);
+                newListItem.appendChild(text);
+                document.getElementById(listElement).appendChild(newListItem);
+            }
+        }
+        
+        creatList(getElementById.("colorsList"), colors);
+        creatList(getElementById.("foodsList"), foods);
+        
+     /*   for(let n = 0;n < 3;n++){
                 let g = colors[n];
                 let newListItem = document.createElement("li");
                 let text = document.createTextNode(g);
@@ -47,7 +62,7 @@
                 let text = document.createTextNode(g);
                 newListItem.appendChild(text);
                 document.getElementById("foodsList").appendChild(newListItem);
-        }
+    */    }
         
     </script>
     
