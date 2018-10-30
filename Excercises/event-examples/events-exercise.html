@@ -42,8 +42,24 @@
 
 <script>
 /* Write your code here! */
-	let radioButtons = document.querySelectorAll("p");
-	console.log(radioButtons);
+	let selected = document.querySelector("#info");
+	let legend = document.querySelector("#colorform legend");
+	let submitBtn = document.querySelector("#colorform button");
+	let radioBtns = document.querySelectorAll("input[name = 'colorGroup']");
+
+	for(let button of buttons)
+	{
+		button.addEventListener("click", function(){
+			response.innerHTML = `You chose the color ${this.value}`;
+		})
+	}
+
+	submit.onclick = function (e) {
+		let color = document.querySelector(`input[name = "colorGroup"]:checked`).value;
+		response.innerHTML = `Your final answer is ${color}`;
+		legend.style.color = color;
+	}
+
 </script>
 </body>
 </html>
