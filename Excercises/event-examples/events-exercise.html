@@ -47,7 +47,7 @@
 	let submitBtn = document.querySelector("#colorform button");
 	let radioBtns = document.querySelectorAll("input[name = 'colorGroup']");
 
-	for(let button of buttons)
+	for(let button of radioBtns)
 	{
 		button.addEventListener("click", function(){
 			response.innerHTML = `You chose the color ${this.value}`;
