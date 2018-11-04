@@ -125,5 +125,6 @@ header h1 {
         "description image";/*2nd row*/
         grid-template-rows: 1fr 5fr; /*defines height of three rows*/
         grid-template-columns: 20% 20%; /*defines width of the three columns*/
+        text-align: left;
     }
 }
