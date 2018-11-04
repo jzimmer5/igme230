@@ -75,6 +75,7 @@ header h1 {
 }
 
 #projectPhotoOne {
+    max-width: 40%;
     grid-area: image;
 }
 
@@ -120,7 +121,7 @@ header h1 {
     #capstoneProject {
         grid-template-areas: "title"/*1st row*/
         "description image";/*2nd row*/
-        grid-template-rows: 1fr 10fr; /*defines height of three rows*/
+        grid-template-rows: 1fr 5fr; /*defines height of three rows*/
         grid-template-columns: 20% auto; /*defines width of the three columns*/
     }
 }
