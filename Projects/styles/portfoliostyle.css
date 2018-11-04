@@ -2,6 +2,7 @@ html{
     box-sizing: border-box;
     /*font-family: */
     font-size: 1.2em;
+    background-color: grey;
 }
 
 a {
@@ -45,6 +46,38 @@ header h1 {
     text-align: right;
 }
 
+#menu span {
+    padding: 1px 2px;
+    margin: 0 2px;
+    border-radius: 3px;
+}
+
+/*hide the descriptions on mobile*/
+#shortDescriptionOne, #shortDescriptionTwo, #shortDescriptionThree {
+    display: none;
+}
+
+#capstoneProject {
+    display: grid;
+    height: 100 vh;
+    grid-template-areas: "title", "description", "image";
+    grid-template-rows: 2fr 2fr;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#projectTitleOne {
+    grid-area: title;
+}
+
+#shortDescriptionOne {
+    grid-area: description;
+}
+
+#projectPhotoOne {
+    grid-area: image;
+}
+
 /*how the screen should be displayed on anything bigger than 768px*/
 @media screen and (min-width: 768px)
 {
@@ -84,6 +117,10 @@ header h1 {
         padding-bottom: 5px;
     }
 
-
-
+    #capstoneProject {
+        grid-template-areas: "title"/*1st row*/
+        "description image";/*2nd row*/
+        grid-template-rows: 1fr 10fr; /*defines height of three rows*/
+        grid-template-columns: 20% auto; /*defines width of the three columns*/
+    }
 }
