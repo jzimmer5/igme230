@@ -124,6 +124,6 @@ header h1 {
         grid-template-areas: "title"/*1st row*/
         "description image";/*2nd row*/
         grid-template-rows: 1fr 5fr; /*defines height of three rows*/
-        grid-template-columns: 20% auto; /*defines width of the three columns*/
+        grid-template-columns: 20% 20%; /*defines width of the three columns*/
     }
 }
