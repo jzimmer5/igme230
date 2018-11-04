@@ -28,6 +28,8 @@ header img{
 }
 
 header h1 {
+    grid-column: 2;
+    grid-row: 1;
     font-size: 1.5em;
     line-height: 1;
     margin-bottom: 0;
