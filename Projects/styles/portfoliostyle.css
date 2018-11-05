@@ -193,10 +193,9 @@ header h1 {
 
     #chanceProject {
         display: flex;
-        height: 150 vh;
         flex-direction: row;
         max-width: 1000px;
-        margin: 5;
+        margin: 5px;
     }
 }
 
