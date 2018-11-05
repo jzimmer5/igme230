@@ -64,10 +64,9 @@ header h1 {
 /*Creates a flex box to showcase the capstone project horizontally*/
 #capstoneProject {
     display: flex;
-    height: 100 vh;
     flex-direction: column;
     max-width: 760px;
-    margin: 2;
+    margin: 2px;
     border-bottom: 1px solid black;
 }
 
@@ -85,10 +84,9 @@ header h1 {
 /*Creates a flex box to showcase the driving project horizontally*/
 #drivingProject {
     display: flex;
-    height: 100 vh;
     flex-direction: column;
     max-width: 760px;
-    margin: 2;
+    margin: 2px;
     border-bottom: 1px solid black;
 }
 
@@ -106,10 +104,9 @@ header h1 {
 /*Creates a flex box to showcase the chance project horizontally*/
 #chanceProject {
     display: flex;
-    height: 100 vh;
     flex-direction: column;
     max-width: 760px;
-    margin: 2;
+    margin: 2px;
     border-bottom: 1px solid black;
 }
 
@@ -174,10 +171,9 @@ header h1 {
 
     #capstoneProject {
         display: flex;
-        height: 100 vh;
         flex-direction: row;
         max-width: 1000px;
-        margin: 5;
+        margin: 5px;
     }
 
     #projectPhotoOne {
@@ -186,10 +182,9 @@ header h1 {
 
     #drivingProject {
         display: flex;
-        height: 100 vh;
         flex-direction: row;
         max-width: 1000px;
-        margin: 5;
+        margin: 5px;
     }
 
     #projectPhotoTwo {
