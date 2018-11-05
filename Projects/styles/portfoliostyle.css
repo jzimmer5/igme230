@@ -194,3 +194,25 @@ header h1 {
         margin: 5;
     }
 }
+
+@media print{
+    header {
+        background-color: gray;
+    }
+
+    a {
+        color: black;
+
+    }
+
+    a:after {
+        content: " (" attr(href)") ";
+        font-size: 0.8em;
+        font-weight: normal;
+    }
+
+    p {
+        color: gray;
+    }
+    
+}
