@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid examples</title>
+    <style>
+        .mygrid {
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 150px 1fr 1fr;
+            grid-template-rows: 100px 1fr 1fr 50px;
+        }
+
+        .mygrid div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: pink;
+            border: 1px dotted green;
+        }
+
+        .titlebar {
+            grid-column-start: 1;
+            grid-column-end: -1;
+        }
+
+        .sidebar {
+            grid-row: 2/span 2;
+        }
+
+        .footbar {
+            grid-column: 1/ span 3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="mygrid">
+        <div class="titlebar">cell 1</div>
+        <div class="sidebar">cell 2</div>
+        <div>cell 3</div>
+        <div>cell 4</div>
+        <div>cell 5</div>
+        <div>cell 6</div>
+        <div class="footbar">cell 7</div>
+    </div>
+
+</body>
+</html>
