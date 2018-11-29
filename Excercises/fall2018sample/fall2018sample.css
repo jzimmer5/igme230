@@ -50,3 +50,15 @@ Your Formatting
 #nav {
     grid-row: 2;
 }
+
+#article {
+    grid-row: 3;
+}
+
+#aside {
+    grid-row: 4;
+}
+
+#footer {
+    grid-row: 5;
+}
