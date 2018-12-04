@@ -1,0 +1,11 @@
+<p id="verse1">May the road rise to meet you.</p>
+
+<p id="verse2">May the wind be always at your back.</p>
+
+<p id="verse3">May the sun shine warm upon your face,</p>
+
+<p id="verse4">the rain fall soft upon your fields.</p>
+
+<p id="verse5">And until we meet again,</p>
+
+<p id="verse6">may God hold you in the palm of his hand.</p>
