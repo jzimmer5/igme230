@@ -89,7 +89,7 @@ header, footer {
         display: grid;
         grid-template-columns: 1fr 2fr 200px;
         grid-template-rows: 4rem 1fr 3rem;
-        width: 90vw;
+        /*width: 90vw;*/
         height: 100vh;
     }
 
