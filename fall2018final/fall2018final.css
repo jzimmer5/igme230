@@ -37,6 +37,7 @@ Your Formatting
 
 #yourgrid {
     display: grid;
+    margin: auto;
     grid-template-columns: 1fr;
     grid-template-rows: 75px 30px auto auto 30px;
 }
