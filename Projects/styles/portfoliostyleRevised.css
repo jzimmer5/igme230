@@ -1,0 +1,223 @@
+html{
+    box-sizing: border-box;
+    font-size: 1.2em;
+    background-color: #FFF8F0;
+    margin: 0 auto;
+}
+
+/*changes the color of links and gets rid of the decoration, the call under it adds the underline when hovered over*/
+a {
+    color: #E9724C;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 2px solid #E9724C;
+}
+
+/*All the css below is for mobile viewing*/
+
+/*Creates a 3 by 1 grid to store all the elements in the header nicely*/
+header{
+    display: grid;
+    width: 100%;
+    grid-template-rows: 58% 28% 14%;
+    grid-template-columns: 100%;
+    background-color: #9E2B25;
+}
+
+/*Sets the image to be the first thing to load in*/
+header img{
+    grid-column: 1;
+    grid-row: 1;
+    margin: auto;
+    border-radius: 90%;
+    max-height: 60%;
+    text-align:center;
+}
+
+/*The text will be in the row below the image*/
+header h1 {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 1.2em;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+/*Sets the menu to be at the bottom of the headers grid*/
+#menu {
+    grid-column: 1;
+    grid-row: 3;
+    font-size: 1.5em;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+#menu span {
+    border-radius: 3px;
+}
+
+/*Creates a flex box to showcase the capstone project horizontally*/
+#capstoneProject {
+    display: flex;
+    flex-direction: column;
+    max-width: 760px;
+    margin: 2px;
+    border-bottom: 1px solid black;
+}
+
+#projectTitleOne {
+    align-self: center;
+    font-size: 1.8em;
+}
+
+#projectPhotoOne {
+    max-width: 60%;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+/*Creates a flex box to showcase the driving project horizontally*/
+#drivingProject {
+    display: flex;
+    flex-direction: column;
+    max-width: 760px;
+    margin: 2px;
+    border-bottom: 1px solid black;
+}
+
+#projectTitleTwo {
+    align-self: center;
+    font-size: 1.8em;
+}
+
+#projectPhotoTwo {
+    max-width: 60%;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+/*Creates a flex box to showcase the chance project horizontally*/
+#chanceProject {
+    display: flex;
+    flex-direction: column;
+    max-width: 760px;
+    margin: 2px;
+    border-bottom: 1px solid black;
+}
+
+#projectTitleThree {
+    align-self: center;
+    font-size: 1.8em;
+}
+
+#projectPhotoThree {
+    max-width: 80%;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+/*hide the descriptions on mobile*/
+#shortDescriptionOne, #shortDescriptionTwo, #shortDescriptionThree {
+    display: none;
+}
+
+/*how the screen should be displayed on anything bigger than 768px*/
+@media screen and (min-width: 768px)
+{
+    /*opened up the grid layout to be 3 by 5*/
+    header  {
+        grid-template-rows: 40% 10% 5%;
+        grid-template-columns: 10% auto auto auto 10%;
+        background-color: #9E2B25;
+    }
+    
+    /*Replaced the flex box layout with a grid one*/
+    main {
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        grid-gap: 20px;
+        max-width: 1048px;
+    }
+
+    header img {
+        margin-top: 5px;
+        max-height: 100%;
+        grid-column-start: 2;
+    }
+
+    header h1 {
+        grid-row: 1;
+        grid-column: 2;
+        align-self: center;
+        font-size: 1.5em;
+        grid-column-start: 3;
+
+    }
+
+    #menu {
+        
+        grid-column-start: 3;
+        font-size: .9em;
+        text-align: right;
+        margin-bottom: 0px;
+    }
+
+    #capstoneProject {
+        display: flex;
+        flex-direction: row;
+        max-width: 1000px;
+        margin: 5px;
+    }
+
+    #projectPhotoOne {
+        padding: .5em;
+    }
+
+    #drivingProject {
+        display: flex;
+        flex-direction: row;
+        max-width: 1000px;
+        margin: 5px;
+    }
+
+    #projectPhotoTwo {
+        padding: .5em;
+    }
+
+    #chanceProject {
+        display: flex;
+        flex-direction: row;
+        max-width: 1000px;
+        margin: 5px;
+    }
+}
+
+/*Defines what the page will look like for a printer*/
+@media print{
+    header {
+        background-color: gray;
+    }
+
+    a {
+        color: black;
+
+    }
+
+    a:after {
+        content: " (" attr(href)") ";
+        font-size: 0.8em;
+        font-weight: normal;
+    }
+
+    p {
+        color: gray;
+    }
+    
+}
