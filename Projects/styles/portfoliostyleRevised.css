@@ -121,6 +121,7 @@ header h1 {
     margin-bottom: 10px;
 }
 
+/*These will only happen for users with screens that don't get bigger than 768px*/
 @media screen and (max-width: 768px)
 {
     /*The menu for desktop is hidden on mobile*/
