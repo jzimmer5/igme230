@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="../styles/portfoliostyle.css" rel="stylesheet" type="text/css">
+    <link href="../styles/portfoliostyleRevised.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Resume</title>
     <style>
         p {
@@ -20,16 +21,28 @@
             <img src="../images/081718163_HDR.jpg" alt="A photo of Jeffrey Zimmer">
             <h1>Jeffrey Zimmer's Portfolio</h1>
             <div id="menu" class>
-                <span><a href="../Portfolio.html">Home</a></span>
-                 | 
-                <span><a href="Resume.html">Resume</a></span>
-                 | 
-                <span><a href="https://www.linkedin.com/in/jeffrey-zimmer-9b273a165/">LinkedIn</a></span>
-                 | 
-                <span><a href="https://rit.joinhandshake.com/users/14310191">HandShake</a></span>
-            </div>
-        </header>
-        <main>
+                    <span><a href="../PortfolioRevised.html">Home</a></span>
+                    | 
+                   <span><a href="ResumeRevised.html">Resume</a></span>
+                    | 
+                   <span><a href="https://www.linkedin.com/in/jeffrey-zimmer-9b273a165/">LinkedIn</a></span>
+                    | 
+                   <span><a href="https://rit.joinhandshake.com/users/14310191">HandShake</a></span>
+               </div>
+           </header>
+       <main>
+               <div id="mobileMenu">
+                   <div id="divtoggle"><span id="open">+</span><span id="close">-</span></div>
+                   <div id="divmenu" class>
+                       <span><a href="../PortfolioRevised.html">Home</a></span>
+                        | 
+                       <span><a href="showcases/ResumeRevised.html">Resume</a></span>
+                        | 
+                       <span><a href="https://www.linkedin.com/in/jeffrey-zimmer-9b273a165/">LinkedIn</a></span>
+                        | 
+                       <span><a href="https://rit.joinhandshake.com/users/14310191">HandShake</a></span>
+                   </div>
+               </div>
         <p>
             
 Jeffrey Zimmer<br/>
@@ -155,5 +168,6 @@ Led the archery and air rifle program, tasked with organization and inventory of
 Earned certification as an adventure facilitator and led an adventure group during adventure week <br/>
         </main>
     </div>
+    <script src="../portfolio.js"></script>
 </body>
 </html>

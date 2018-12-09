@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="../styles/portfoliostyle.css" rel="stylesheet" type="text/css">
+    <link href="../styles/portfoliostyleRevisedShowcases.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Treachery At Murder Manor</title>
 </head>
 <body>
@@ -13,9 +14,9 @@
                     <img src="../images/081718163_HDR.jpg" alt="A photo of Jeffrey Zimmer">
                     <h1>Jeffrey Zimmer's Portfolio</h1>
                     <div id="menu" class>
-                        <span><a href="../Portfolio.html">Home</a></span>
+                        <span><a href="../PortfolioRevised.html">Home</a></span>
                          | 
-                        <span><a href="Resume.html">Resume</a></span>
+                        <span><a href="ResumeRevised.html">Resume</a></span>
                          | 
                         <span><a href="https://www.linkedin.com/in/jeffrey-zimmer-9b273a165/">LinkedIn</a></span>
                          | 
@@ -23,6 +24,18 @@
                     </div>
                 </header>
             <main>
+                    <div id="mobileMenu">
+                        <div id="divtoggle"><span id="open">+</span><span id="close">-</span></div>
+                        <div id="divmenu" class>
+                            <span><a href="../PortfolioRevised.html">Home</a></span>
+                             | 
+                            <span><a href="ResumeRevised.html">Resume</a></span>
+                             | 
+                            <span><a href="https://www.linkedin.com/in/jeffrey-zimmer-9b273a165/">LinkedIn</a></span>
+                             | 
+                            <span><a href="https://rit.joinhandshake.com/users/14310191">HandShake</a></span>
+                        </div>
+                    </div>
                 <h1 id="title">Treachery At Murder Manor</h1>
                 <p id="gameDescription">
                     Treachery At Murder Manor is a COOP game where you are invited to a diner party in a big mansion. Once you arrive you discover that the host
@@ -35,8 +48,9 @@
                     UI that gave you all the information with out cluttering the screen
                 </p>
 
-                <a href="https://jgreene189.wixsite.com/lakesidegames">This is the games website</a>
+                <a href="https://jgreene189.wixsite.com/lakesidegames" id="websiteLink">This is the games website</a>
             </main>
         </div>
+        <script src="../portfolio.js"></script>
 </body>
 </html>
