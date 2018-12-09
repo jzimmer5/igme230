@@ -133,7 +133,7 @@ header h1 {
     #divmenu {
         grid-column-start: 1;
         grid-row-start: 1;
-        align-items: top;
+        align-items: flex-start;
         justify-content: center;
     }
 
